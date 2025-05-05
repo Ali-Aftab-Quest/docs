@@ -1,7 +1,6 @@
 ---
 id: intro
 title: Introduction
-slug: /
 ---
 
 # Welcome to Our Documentation

@@ -23,6 +23,7 @@ const config = {
   organizationName: 'Ali-Aftab-Quest', // GitHub username
   projectName: 'docs', // Repo name
   deploymentBranch: 'gh-pages',
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -41,6 +42,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          routeBasePath: '/',
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -84,6 +86,7 @@ const config = {
           {
             type: 'docSidebar',
             sidebarId: 'docs',
+            to: '/intro',
             position: 'left',
             label: 'Documentation'
           }

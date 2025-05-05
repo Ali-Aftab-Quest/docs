@@ -21,7 +21,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'Ali-Aftab-Quest', // GitHub username
-  projectName: 'subqc-docs', // Repo name
+  projectName: 'docs', // Repo name
   deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'throw',
